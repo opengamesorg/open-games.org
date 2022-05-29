@@ -90,7 +90,7 @@ Crafty.c('Enemy', {
 			this.animate('doFireAnimation');
 			// sound
 			if(!iOS){
-				Crafty.audio.play('enemy-shoots-lasers', 1, 0.4);
+				Crafty.audio.play('enemy-shoots-lasers', 1, 0.3);
 			}
 			if(!this.isBoss){
 				Crafty.e('Laser').setEnemyLaser().place(this.x + this.w/2, this.y + this.h - 5);
@@ -111,7 +111,7 @@ Crafty.c('Enemy', {
 			} else {
 				// sound
 				if(!iOS){
-					Crafty.audio.play('enemy-gets-hit', 1, 0.8);
+					Crafty.audio.play('enemy-gets-hit', 1, 0.7);
 				}
 			}
 		}
@@ -122,7 +122,7 @@ Crafty.c('Enemy', {
 		this.isKilled = true;
 		// sound
 		if(!iOS){
-			Crafty.audio.play('enemy-gets-killed', 1, 0.8);
+			Crafty.audio.play('enemy-gets-killed', 1, 0.7);
 		}
 		// drop
 		if(this.hasDrop){
