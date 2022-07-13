@@ -1,7 +1,5 @@
 # open-games.org
-HTML5 and Javascript games
-
-[https://www.open-games.org](https://www.open-games.org)
+HTML5 and Javascript games - [https://www.open-games.org](https://www.open-games.org)
 
 Built with [Crafty](https://craftyjs.com/), « a flexible framework for Javascript games »
 
