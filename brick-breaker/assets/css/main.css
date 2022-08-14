@@ -1,0 +1,107 @@
+/********************************
+main.css : CSS for the game page
+*********************************/
+
+/* font : arcade classic */
+@font-face {
+    font-family: 'arcade';
+    src: url('../fonts/arcadeclassic.regular.ttf') format('ttf'),
+		 url('../fonts/arcadeclassic.regular.woff') format('woff'),
+         url('../fonts/arcadeclassic.regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* font : Open Sans Regular */
+@font-face {
+    font-family: 'Open Sans Regular';
+    src: url('../fonts/opensans-regular-webfont.woff') format('woff'),
+         url('../fonts/opensans-regular-webfont.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+  -webkit-touch-callout: none;
+    -webkit-user-select: none;
+     -khtml-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+}
+
+body, html { 
+	margin: 0; 
+	padding: 0; 
+	overflow: hidden; 
+	background-color: #131313;
+}
+
+/* centered container */
+#general-container {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+
+/* where the game will be injected by Crafty */
+#game-container { 
+	background-color: black;
+}
+
+/* when the game is paused */
+#game-container.pause {
+	opacity: 0.5;
+}
+
+/* top page user interface buttons */
+#ui-container {
+	float: left;
+	padding: 5px;
+}
+
+#ui-container .ui-button {
+	height: 30px;
+	width: 30px;
+	float: left;
+	pointer-events: initial;
+	cursor: pointer;
+	background-position: center;
+}
+
+.ui-button.hidden {
+	display: none;
+}
+
+/* back button */
+.ui-button.back {
+	background-image: url(../images/ui/icon-back.png);
+}
+
+/* restart button */
+.ui-button.restart {
+	background-image: url(../images/ui/icon-restart.png);
+}
+
+/* mute button */
+.ui-button.mute {
+	background-image: url(../images/ui/icon-mute.png);
+}
+
+/* unmute button */
+.ui-button.unmute {
+	background-image: url(../images/ui/icon-unmute.png);
+}
+
+/* pause button */
+.ui-button.pause {
+	background-image: url(../images/ui/icon-pause.png);
+}
+
+/* unpause button */
+.ui-button.unpause {
+	background-image: url(../images/ui/icon-unpause.png);
+}
