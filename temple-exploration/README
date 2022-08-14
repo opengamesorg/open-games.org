@@ -1,0 +1,33 @@
+
+-- TEMPLE EXPLORATION
+
+https://www.open-games.org/games/temple-exploration
+
+-- Description :
+
+Web-based game written in HTML5 and Javascript
+Lightweight and cross browser compatible
+Built with CraftyJS framework : http://craftyjs.com
+
+-- Installation and requirements :
+
+No installation needed, just open index.html with your favorite Web browser
+Local Javascript execution must be allowed in the browser settings
+
+-- Files and folders :
+
+assets : game resources (images, audio...)
+lib : game libraries (CraftyJS)
+src : game source code
+index.html : home page containing the game
+
+-- Credits :
+
+Temple tileset made by @DavitMasia
+https://kronbits.itch.io/inca-game-assets
+
+-- License :
+
+This software is licensed under the GNU General Public License
+Everyone has the freedom to run, study, share, and modify the software
+More information at https://www.gnu.org/philosophy/free-sw.html
